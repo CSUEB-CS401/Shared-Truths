@@ -17,7 +17,7 @@ public class RevealController implements Initializable {
 
     @FXML
     void reveal(ActionEvent event) {
-
+        displayLabel.setText(truth.getAnswer());
     }
 
     @Override
