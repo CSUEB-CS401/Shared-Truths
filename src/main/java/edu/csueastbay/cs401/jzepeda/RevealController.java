@@ -26,7 +26,7 @@ public class RevealController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        jonathansTruth = new Truth("Home Town", "Martinez, Ca");
+        jonathansTruth = new Truth("Home Town", "Martinez, CA");
         displayLabel.setText(jonathansTruth.getQuestion());
     }
 }
