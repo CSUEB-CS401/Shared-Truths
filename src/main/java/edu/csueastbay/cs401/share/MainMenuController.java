@@ -32,7 +32,7 @@ public class MainMenuController {
                 loadStudentPane("/edu/csueastbay/cs401/LSingh/reveal.fxml");
                 break;
             default:
-                System.out.println("huh?");
+                 System.out.println("huh?");
 
         }
     }
