@@ -28,6 +28,8 @@ public class MainMenuController {
             case "Bob Smith":
                 loadStudentPane("/edu/csueastbay/cs401/bsmith/reveal.fxml");
                 break;
+            case "Matthew Jelonek":
+                loadStudentPane("/edu/csueastbay/cs401/mjelonek/reveal.fxml");
             case "Lovejit Singh":
                 loadStudentPane("/edu/csueastbay/cs401/LSingh/reveal.fxml");
             case "Kabir Dhillon":
@@ -58,7 +60,6 @@ public class MainMenuController {
                 break;
             case "Ethan Ketell":
                 loadStudentPane("/edu/csueastbay/cs401/eketell/reveal.fxml");
-
                 break;
             default:
                  System.out.println("huh?");
