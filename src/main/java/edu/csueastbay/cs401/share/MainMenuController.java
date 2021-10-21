@@ -28,12 +28,18 @@ public class MainMenuController {
             case "Bob Smith":
                 loadStudentPane("/edu/csueastbay/cs401/bsmith/reveal.fxml");
                 break;
+            case "Taylor Hansen":
+                loadStudentPane("/edu/csueastbay/cs401/thansen/reveal.fxml");
+                break;
             case "Matthew Jelonek":
                 loadStudentPane("/edu/csueastbay/cs401/mjelonek/reveal.fxml");
+                break;
             case "Lovejit Singh":
                 loadStudentPane("/edu/csueastbay/cs401/LSingh/reveal.fxml");
+                break;
             case "Kabir Dhillon":
                 loadStudentPane("/edu/csueastbay/cs401/kdhillon/reveal.fxml");
+                break;
             case "Sam Celli":
                 loadStudentPane("/edu/csueastbay/cs401/scelli/reveal.fxml");
                 break;
