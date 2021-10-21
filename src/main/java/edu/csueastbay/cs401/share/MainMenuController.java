@@ -30,9 +30,39 @@ public class MainMenuController {
                 break;
             case "Matthew Jelonek":
                 loadStudentPane("/edu/csueastbay/cs401/mjelonek/reveal.fxml");
+            case "Lovejit Singh":
+                loadStudentPane("/edu/csueastbay/cs401/LSingh/reveal.fxml");
+            case "Kabir Dhillon":
+                loadStudentPane("/edu/csueastbay/cs401/kdhillon/reveal.fxml");
+            case "Sam Celli":
+                loadStudentPane("/edu/csueastbay/cs401/scelli/reveal.fxml");
+                break;
+            case "Ngon Ly" :
+                loadStudentPane("/edu/csueastbay/cs401/nly/reveal.fxml");
+                break;
+            case "Eshaq Jamdar":
+                loadStudentPane("/edu/csueastbay/cs401/ejamdar/reveal.fxml");
+                break;
+            case "Fnu Srishti":
+                loadStudentPane("/edu/csueastbay/cs401/fsrishti/reveal.fxml");
+                break;
+            case "Dillon Lin":
+                loadStudentPane("/edu/csueastbay/cs401/dlin/reveal.fxml");
+                break;
+            case "Guiller Gamata":
+                loadStudentPane("/edu/csueastbay/cs401/ggamata/reveal.fxml");
+                break;
+            case "Lucas Bernard":
+                loadStudentPane("/edu/csueastbay/cs401/lbernard/reveal.fxml");
+                break;
+            case "Paul Raye":
+                loadStudentPane("/edu/csueastbay/cs401/praye/reveal.fxml");
+                break;
+            case "Ethan Ketell":
+                loadStudentPane("/edu/csueastbay/cs401/eketell/reveal.fxml");
                 break;
             default:
-                System.out.println("huh?");
+                 System.out.println("huh?");
 
         }
     }
