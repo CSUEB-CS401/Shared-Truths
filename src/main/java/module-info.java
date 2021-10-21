@@ -7,6 +7,8 @@ module edu.csueastbay.cs401.shareprep {
     opens edu.csueastbay.cs401.praupach to javafx.fxml;
     opens edu.csueastbay.cs401.bsmith to javafx.fxml;
 
+    opens edu.csueastbay.cs401.LSingh to javafx.fxml;
+
     opens edu.csueastbay.cs401.kdhillon to javafx.fxml;
 
     opens edu.csueastbay.cs401.scelli to javafx.fxml;
