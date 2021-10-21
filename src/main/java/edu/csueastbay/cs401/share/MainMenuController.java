@@ -31,6 +31,19 @@ public class MainMenuController {
             case "Dillon Lin":
                 loadStudentPane("/edu/csueastbay/cs401/dlin/reveal.fxml");
                 break;
+            case "Guiller Gamata":
+                loadStudentPane("/edu/csueastbay/cs401/ggamata/reveal.fxml");
+                break;
+            case "Lucas Bernard":
+                loadStudentPane("/edu/csueastbay/cs401/lbernard/reveal.fxml");
+                break;
+            case "Paul Raye":
+                loadStudentPane("/edu/csueastbay/cs401/praye/reveal.fxml");
+                break;
+            case "Ethan Ketell":
+                loadStudentPane("/edu/csueastbay/cs401/eketell/reveal.fxml");
+                break;
+            
             default:
                 System.out.println("huh?");
 
