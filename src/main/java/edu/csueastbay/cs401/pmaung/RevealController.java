@@ -11,19 +11,19 @@ import java.util.ResourceBundle;
 
 public class RevealController implements Initializable {
 
-    private Truth truth;
+    private Truth pyaeTruth;
 
     @FXML
     private Label displayLabel;
 
     @FXML
     void reveal(ActionEvent event) {
-        displayLabel.setText(truth.getAnswer());
+        displayLabel.setText(pyaeTruth.getAnswer());
     }
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        truth = new Truth("What's your hobby?", "Coding!!!");
-        displayLabel.setText(truth.getQuestion());
+        pyaeTruth = new Truth("What's your hobby?", "Coding!!!");
+        displayLabel.setText(pyaeTruth.getQuestion());
     }
 }
