@@ -22,6 +22,8 @@ module edu.csueastbay.cs401.shareprep {
     opens edu.csueastbay.cs401.lbernard to javafx.fxml;
     opens edu.csueastbay.cs401.praye to javafx.fxml;
     opens edu.csueastbay.cs401.eketell to javafx.fxml;
+    opens edu.csueastbay.cs401.iPod to javafx.fxml;
+
 
     exports edu.csueastbay.cs401.share;
 }

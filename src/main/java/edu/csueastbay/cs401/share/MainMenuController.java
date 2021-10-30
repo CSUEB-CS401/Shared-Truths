@@ -76,6 +76,10 @@ public class MainMenuController {
             case "Ethan Ketell":
                 loadStudentPane("/edu/csueastbay/cs401/eketell/reveal.fxml");
                 break;
+            case "iPod":
+                loadStudentPane("/edu/csueastbay/cs401/iPod/reveal.fxml");
+                break;
+
             default:
                  System.out.println("huh?");
 
