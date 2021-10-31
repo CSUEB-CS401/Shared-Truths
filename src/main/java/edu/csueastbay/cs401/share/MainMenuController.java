@@ -23,10 +23,18 @@ public class MainMenuController {
         Button button = (Button)event.getTarget();
         titleLabel.setText(button.getText() + " is sharing");
         switch (button.getText()) {
-            case "Paul Raupach" -> loadStudentPane("/edu/csueastbay/cs401/praupach/reveal.fxml");
-            case "Bob Smith" -> loadStudentPane("/edu/csueastbay/cs401/bsmith/reveal.fxml");
-            case "Joshua Rodriguez" -> loadStudentPane("/edu/csueastbay/cs401/jrodriguez/reveal.fxml");
-            default -> System.out.println("huh?");
+            case "Paul Raupach":
+                loadStudentPane("/edu/csueastbay/cs401/praupach/reveal.fxml");
+                break;
+            case "Bob Smith":
+                loadStudentPane("/edu/csueastbay/cs401/bsmith/reveal.fxml");
+                break;
+            case "Joshua Rodriguez":
+                loadStudentPane("/edu/csueastbay/cs401/jrodriguez/reveal.fxml");
+                break;
+            default:
+                System.out.println("huh?");
+
         }
     }
 
