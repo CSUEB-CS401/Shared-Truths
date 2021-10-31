@@ -9,6 +9,7 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.BorderPane;
 
 import java.io.IOException;
+import java.util.Objects;
 
 public class MainMenuController {
 
@@ -22,15 +23,10 @@ public class MainMenuController {
         Button button = (Button)event.getTarget();
         titleLabel.setText(button.getText() + " is sharing");
         switch (button.getText()) {
-            case "Paul Raupach":
-                loadStudentPane("/edu/csueastbay/cs401/praupach/reveal.fxml");
-                break;
-            case "Bob Smith":
-                loadStudentPane("/edu/csueastbay/cs401/bsmith/reveal.fxml");
-                break;
-            default:
-                System.out.println("huh?");
-
+            case "Paul Raupach" -> loadStudentPane("/edu/csueastbay/cs401/praupach/reveal.fxml");
+            case "Bob Smith" -> loadStudentPane("/edu/csueastbay/cs401/bsmith/reveal.fxml");
+            case "Joshua Rodriguez" -> loadStudentPane("/edu/csueastbay/cs401/jrodriguez/reveal.fxml");
+            default -> System.out.println("huh?");
         }
     }
 
@@ -38,7 +34,7 @@ public class MainMenuController {
 
         try {
             Parent root;
-            root = FXMLLoader.load(getClass().getResource(template));
+            root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource(template)));
             baseBorderPane.setCenter(root);
         } catch (IOException e) {
             e.printStackTrace();

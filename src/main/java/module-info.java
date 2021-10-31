@@ -1,4 +1,4 @@
-module edu.csueastbay.cs401.shareprep {
+module edu.csueastbay.cs.shareprep {
     requires javafx.controls;
     requires javafx.fxml;
 
@@ -6,5 +6,6 @@ module edu.csueastbay.cs401.shareprep {
     opens edu.csueastbay.cs401.share to javafx.fxml;
     opens edu.csueastbay.cs401.praupach to javafx.fxml;
     opens edu.csueastbay.cs401.bsmith to javafx.fxml;
+    opens edu.csueastbay.cs401.jrodriguez to javafx.fxml;
     exports edu.csueastbay.cs401.share;
 }
