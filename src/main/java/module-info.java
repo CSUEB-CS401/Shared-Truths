@@ -1,8 +1,6 @@
 module edu.csueastbay.cs.shareprep {
     requires javafx.controls;
     requires javafx.fxml;
-
-    // Added to give permission to open up file
     opens edu.csueastbay.cs401.share to javafx.fxml;
     opens edu.csueastbay.cs401.praupach to javafx.fxml;
     opens edu.csueastbay.cs401.bsmith to javafx.fxml;
@@ -23,5 +21,7 @@ module edu.csueastbay.cs.shareprep {
     opens edu.csueastbay.cs401.lbernard to javafx.fxml;
     opens edu.csueastbay.cs401.praye to javafx.fxml;
     opens edu.csueastbay.cs401.eketell to javafx.fxml;
+    opens edu.csueastbay.cs401.iPod to javafx.fxml;
+  
     exports edu.csueastbay.cs401.share;
 }
