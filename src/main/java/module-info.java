@@ -4,6 +4,8 @@ module edu.csueastbay.cs.shareprep {
     opens edu.csueastbay.cs401.share to javafx.fxml;
     opens edu.csueastbay.cs401.praupach to javafx.fxml;
     opens edu.csueastbay.cs401.bsmith to javafx.fxml;
+    opens edu.csueastbay.cs401.psander to javafx.fxml;
+    opens edu.csueastbay.cs401.psander2 to javafx.fxml;
     opens edu.csueastbay.cs401.jrodriguez to javafx.fxml;
     opens edu.csueastbay.cs401.hpatel to javafx.fxml;
     opens edu.csueastbay.cs401.rlepee to javafx.fxml;
@@ -22,6 +24,5 @@ module edu.csueastbay.cs.shareprep {
     opens edu.csueastbay.cs401.praye to javafx.fxml;
     opens edu.csueastbay.cs401.eketell to javafx.fxml;
     opens edu.csueastbay.cs401.iPod to javafx.fxml;
-  
     exports edu.csueastbay.cs401.share;
 }

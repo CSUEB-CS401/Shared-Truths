@@ -29,6 +29,12 @@ public class MainMenuController {
             case "Bob Smith":
                 loadStudentPane("/edu/csueastbay/cs401/bsmith/reveal.fxml");
                 break;
+            case "Paul Sander":
+                loadStudentPane("/edu/csueastbay/cs401/psander/reveal.fxml");
+                break;
+            case "Paul Sander 2":
+                loadStudentPane("/edu/csueastbay/cs401/psander2/reveal.fxml");
+                break;
             case "Joshua Rodriguez":
                 loadStudentPane("/edu/csueastbay/cs401/jrodriguez/reveal.fxml");
                  break;
@@ -83,7 +89,6 @@ public class MainMenuController {
             case "iPod":
                 loadStudentPane("/edu/csueastbay/cs401/iPod/reveal.fxml");
                 break;
-
             default:
                  System.out.println("huh?");
 
