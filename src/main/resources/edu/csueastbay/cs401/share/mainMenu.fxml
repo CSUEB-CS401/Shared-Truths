@@ -15,6 +15,7 @@
          <children>
             <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Paul Raupach" />
             <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Bob Smith" />
+            <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Pyae Maung" />
             <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Katherine Hettick-Leir" />
             <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Paul Sander" />
             <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Paul Sander 2" />
