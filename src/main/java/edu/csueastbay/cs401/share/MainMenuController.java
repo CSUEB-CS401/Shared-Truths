@@ -9,6 +9,7 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.BorderPane;
 
 import java.io.IOException;
+import java.util.Objects;
 
 public class MainMenuController {
 
@@ -28,6 +29,9 @@ public class MainMenuController {
             case "Bob Smith":
                 loadStudentPane("/edu/csueastbay/cs401/bsmith/reveal.fxml");
                 break;
+            case "Joshua Rodriguez":
+                loadStudentPane("/edu/csueastbay/cs401/jrodriguez/reveal.fxml");
+                 break;
             case "Hanish Patel":
                 loadStudentPane("/edu/csueastbay/cs401/hpatel/reveal.fxml");
                 break;
@@ -90,7 +94,7 @@ public class MainMenuController {
 
         try {
             Parent root;
-            root = FXMLLoader.load(getClass().getResource(template));
+            root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource(template)));
             baseBorderPane.setCenter(root);
         } catch (IOException e) {
             e.printStackTrace();
