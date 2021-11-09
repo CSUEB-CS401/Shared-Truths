@@ -65,7 +65,7 @@ public class MainMenuController {
                 loadStudentPane("/edu/csueastbay/cs401/dlin/reveal.fxml");
                 break;
             case "Dillon Lin2":
-                loadStudentPane("/edu/csueastbay/cs401/dlin/reveal2.fxml");
+                loadStudentPane("/edu/csueastbay/cs401/dlin2/reveal2.fxml");
                 break;
             case "Guiller Gamata":
                 loadStudentPane("/edu/csueastbay/cs401/ggamata/reveal.fxml");
