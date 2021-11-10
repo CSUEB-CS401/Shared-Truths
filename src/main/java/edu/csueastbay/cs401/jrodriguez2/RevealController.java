@@ -1,5 +1,6 @@
-package edu.csueastbay.cs401.jrodriguez;
+package edu.csueastbay.cs401.jrodriguez2;
 
+import edu.csueastbay.cs401.jrodriguez.Truth;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -22,8 +23,7 @@ public class RevealController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        JoshuasTruth = new Truth("Favorite League of Legends Champion?","Jhin");
+        JoshuasTruth = new Truth("Favorite Sports Car?","Subaru WRX STI");
         displayLabel.setText(JoshuasTruth.getQuestion());
     }
-
 }

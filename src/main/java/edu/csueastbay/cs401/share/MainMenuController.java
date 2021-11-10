@@ -23,87 +23,34 @@ public class MainMenuController {
         Button button = (Button)event.getTarget();
         titleLabel.setText(button.getText() + " is sharing");
         switch (button.getText()) {
-            case "Paul Raupach":
-                loadStudentPane("/edu/csueastbay/cs401/praupach/reveal.fxml");
-                break;
-            case "Bob Smith":
-                loadStudentPane("/edu/csueastbay/cs401/bsmith/reveal.fxml");
-                break;
-            case "Vi Nguyen":
-                loadStudentPane("/edu/csueastbay/cs401/vnguyen/reveal.fxml");
-                break;
-            case "Pyae Maung":
-                loadStudentPane("/edu/csueastbay/cs401/pmaung/reveal.fxml");
-                break;
-            case "Katherine Hettick-Leir":
-                loadStudentPane("/edu/csueastbay/cs401/khettickleir/reveal.fxml");
-                break;
-            case "Paul Sander":
-                loadStudentPane("/edu/csueastbay/cs401/psander/reveal.fxml");
-                break;
-            case "Paul Sander 2":
-                loadStudentPane("/edu/csueastbay/cs401/psander2/reveal.fxml");
-                break;
-            case "Joshua Rodriguez":
-                loadStudentPane("/edu/csueastbay/cs401/jrodriguez/reveal.fxml");
-                 break;
-            case "Hanish Patel":
-                loadStudentPane("/edu/csueastbay/cs401/hpatel/reveal.fxml");
-                break;
-            case "Ronan Lepee":
-                loadStudentPane("/edu/csueastbay/cs401/rlepee/reveal.fxml");
-                break;
-            case "Jonathan Zepeda":
-                loadStudentPane("/edu/csueastbay/cs401/jzepeda/reveal.fxml");
-                break;
-            case "Taylor Hansen":
-                loadStudentPane("/edu/csueastbay/cs401/thansen/reveal.fxml");
-                break;
-            case "Matthew Jelonek":
-                loadStudentPane("/edu/csueastbay/cs401/mjelonek/reveal.fxml");
-                break;
-            case "Lovejit Singh":
-                loadStudentPane("/edu/csueastbay/cs401/LSingh/reveal.fxml");
-                break;
-            case "Kabir Dhillon":
-                loadStudentPane("/edu/csueastbay/cs401/kdhillon/reveal.fxml");
-                break;
-            case "Sam Celli":
-                loadStudentPane("/edu/csueastbay/cs401/scelli/reveal.fxml");
-                break;
-            case "Ngon Ly" :
-                loadStudentPane("/edu/csueastbay/cs401/nly/reveal.fxml");
-                break;
-            case "Eshaq Jamdar":
-                loadStudentPane("/edu/csueastbay/cs401/ejamdar/reveal.fxml");
-                break;
-            case "Fnu Srishti":
-                loadStudentPane("/edu/csueastbay/cs401/fsrishti/reveal.fxml");
-                break;
-            case "Dillon Lin":
-                loadStudentPane("/edu/csueastbay/cs401/dlin/reveal.fxml");
-                break;
-            case "Guiller Gamata":
-                loadStudentPane("/edu/csueastbay/cs401/ggamata/reveal.fxml");
-                break;
-            case "Lucas Bernard":
-                loadStudentPane("/edu/csueastbay/cs401/lbernard/reveal.fxml");
-                break;
-            case "Paul Raye":
-                loadStudentPane("/edu/csueastbay/cs401/praye/reveal.fxml");
-                break;
-            case "Ethan Ketell":
-                loadStudentPane("/edu/csueastbay/cs401/eketell/reveal.fxml");
-                break;
-            case "Pyush Sinha":
-                loadStudentPane("/edu/csueastbay/cs401/psinha/reveal.fxml");
-                break;
-            case "iPod":
-                loadStudentPane("/edu/csueastbay/cs401/iPod/reveal.fxml");
-                break;
-            default:
-                 System.out.println("huh?");
-
+            case "Paul Raupach" -> loadStudentPane("/edu/csueastbay/cs401/praupach/reveal.fxml");
+            case "Bob Smith" -> loadStudentPane("/edu/csueastbay/cs401/bsmith/reveal.fxml");
+            case "Vi Nguyen" -> loadStudentPane("/edu/csueastbay/cs401/vnguyen/reveal.fxml");
+            case "Pyae Maung" -> loadStudentPane("/edu/csueastbay/cs401/pmaung/reveal.fxml");
+            case "Katherine Hettick-Leir" -> loadStudentPane("/edu/csueastbay/cs401/khettickleir/reveal.fxml");
+            case "Paul Sander" -> loadStudentPane("/edu/csueastbay/cs401/psander/reveal.fxml");
+            case "Paul Sander 2" -> loadStudentPane("/edu/csueastbay/cs401/psander2/reveal.fxml");
+            case "Joshua Rodriguez" -> loadStudentPane("/edu/csueastbay/cs401/jrodriguez/reveal.fxml");
+            case "Joshua Rodriguez 2" -> loadStudentPane("/edu/csueastbay/cs401/jrodriguez2/reveal.fxml");
+            case "Hanish Patel" -> loadStudentPane("/edu/csueastbay/cs401/hpatel/reveal.fxml");
+            case "Ronan Lepee" -> loadStudentPane("/edu/csueastbay/cs401/rlepee/reveal.fxml");
+            case "Jonathan Zepeda" -> loadStudentPane("/edu/csueastbay/cs401/jzepeda/reveal.fxml");
+            case "Taylor Hansen" -> loadStudentPane("/edu/csueastbay/cs401/thansen/reveal.fxml");
+            case "Matthew Jelonek" -> loadStudentPane("/edu/csueastbay/cs401/mjelonek/reveal.fxml");
+            case "Lovejit Singh" -> loadStudentPane("/edu/csueastbay/cs401/LSingh/reveal.fxml");
+            case "Kabir Dhillon" -> loadStudentPane("/edu/csueastbay/cs401/kdhillon/reveal.fxml");
+            case "Sam Celli" -> loadStudentPane("/edu/csueastbay/cs401/scelli/reveal.fxml");
+            case "Ngon Ly" -> loadStudentPane("/edu/csueastbay/cs401/nly/reveal.fxml");
+            case "Eshaq Jamdar" -> loadStudentPane("/edu/csueastbay/cs401/ejamdar/reveal.fxml");
+            case "Fnu Srishti" -> loadStudentPane("/edu/csueastbay/cs401/fsrishti/reveal.fxml");
+            case "Dillon Lin" -> loadStudentPane("/edu/csueastbay/cs401/dlin/reveal.fxml");
+            case "Guiller Gamata" -> loadStudentPane("/edu/csueastbay/cs401/ggamata/reveal.fxml");
+            case "Lucas Bernard" -> loadStudentPane("/edu/csueastbay/cs401/lbernard/reveal.fxml");
+            case "Paul Raye" -> loadStudentPane("/edu/csueastbay/cs401/praye/reveal.fxml");
+            case "Ethan Ketell" -> loadStudentPane("/edu/csueastbay/cs401/eketell/reveal.fxml");
+            case "Pyush Sinha" -> loadStudentPane("/edu/csueastbay/cs401/psinha/reveal.fxml");
+            case "iPod" -> loadStudentPane("/edu/csueastbay/cs401/iPod/reveal.fxml");
+            default -> System.out.println("huh?");
         }
     }
 
