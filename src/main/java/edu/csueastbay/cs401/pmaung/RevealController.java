@@ -11,7 +11,6 @@ import java.util.ResourceBundle;
 public class RevealController implements Initializable {
 
     private Truth pyaeTruth;
-    boolean revealed = false;
 
     @FXML
     private Label displayLabel;
@@ -19,7 +18,6 @@ public class RevealController implements Initializable {
     @FXML
     void reveal(ActionEvent event) {
         displayLabel.setText(pyaeTruth.getAnswer());
-        revealed = false;
     }
 
     @Override
