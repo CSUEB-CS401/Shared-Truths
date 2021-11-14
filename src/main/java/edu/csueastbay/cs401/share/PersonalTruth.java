@@ -6,7 +6,7 @@ public class PersonalTruth {
 
     public PersonalTruth(String question, String answer) {
         this.question = question;
-        this.answer = answer;
+         this.answer = answer;
     }
 
     public String getQuestion() {
