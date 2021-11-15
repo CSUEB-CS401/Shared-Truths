@@ -32,7 +32,7 @@ public class MainMenuController {
                 break;
             case "Malik Eddy":
                 System.out.println("m clicked");
-                loadStudentPane("/edu/csueastbay/cs401/mEddy/reveal2.fxml");
+                loadStudentPane("/edu/csueastbay/cs401/mEddy/reveal.fxml");
                 break;
             case "Sasha Eddy":
                 System.out.println("s clicked");

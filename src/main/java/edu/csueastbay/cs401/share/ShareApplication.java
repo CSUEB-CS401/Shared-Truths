@@ -10,7 +10,7 @@ import java.io.IOException;
 public class ShareApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(ShareApplication.class.getResource("mainMenu2.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(ShareApplication.class.getResource("mainMenu.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("Sharing is caring!");
         stage.setScene(scene);
