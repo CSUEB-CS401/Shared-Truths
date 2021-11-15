@@ -1,6 +1,7 @@
 module edu.csueastbay.cs.shareprep {
     requires javafx.controls;
     requires javafx.fxml;
+    requires javafx.base;
     opens edu.csueastbay.cs401.share to javafx.fxml;
     opens edu.csueastbay.cs401.praupach to javafx.fxml;
     opens edu.csueastbay.cs401.bsmith to javafx.fxml;
