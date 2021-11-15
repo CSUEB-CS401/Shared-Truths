@@ -80,7 +80,7 @@ public class MainMenuController {
             case "Fnu Srishti":
                 loadStudentPane("/edu/csueastbay/cs401/fsrishti/reveal.fxml");
                 break;
-            case "Srishti 2":
+            case "Srishti2":
                 loadStudentPane("/edu/csueastbay/cs401/fsrishti/reveal2.fxml");
                 break;
             case "Dillon Lin":
