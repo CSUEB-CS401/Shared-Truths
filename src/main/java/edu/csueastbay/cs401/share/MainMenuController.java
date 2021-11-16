@@ -29,7 +29,7 @@ public class MainMenuController {
                 loadStudentPane("/edu/csueastbay/cs401/bsmith/reveal.fxml");
                 break;
             case "Anthony Garcia":
-                loadStudentPane("/edu/csueastbay/cs401/anthonyg408/reveal.fxml");
+                loadStudentPane("/edu/csueastbay/cs401/agarcia/reveal.fxml");
                 break;
             default:
                 System.out.println("huh?");
