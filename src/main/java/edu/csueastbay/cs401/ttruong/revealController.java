@@ -11,6 +11,8 @@ import java.util.ResourceBundle;
 
 public class revealController implements Initializable {
 
+    private Truth TiffsTruth;
+
     @FXML
     private Label displayLabel;
 
@@ -19,12 +21,13 @@ public class revealController implements Initializable {
 
     @FXML
     void reveal(ActionEvent event) {
-
+        displayLabel.setText(TiffsTruth.getAnswer());
     }
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-
+        TiffsTruth = new Truth("Favorite drink:", "Matcha latte");
+        displayLabel.setText(TiffsTruth.getQuestion());
     }
 }
 
