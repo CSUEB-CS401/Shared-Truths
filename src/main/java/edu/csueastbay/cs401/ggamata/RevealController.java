@@ -36,6 +36,7 @@ public class RevealController implements Initializable {
     @FXML
     void reveal_second_truth(ActionEvent event) { displayLabel2.setText(GuillerTruth2.getAnswer());}
 
+
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle)
     {
