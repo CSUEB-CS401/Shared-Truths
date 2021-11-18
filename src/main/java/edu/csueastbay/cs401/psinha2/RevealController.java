@@ -26,7 +26,7 @@ public class RevealController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        truth = new PyushTruth("Are you allergic to cats?", "lil bit :[ ...");
+        truth = new PyushTruth("Are you allergic to cats?", "lil bit :[ ....");
         displayLabel.setText(truth.getQuestion());
     }
 }
