@@ -104,6 +104,9 @@ public class MainMenuController {
             case "Tiffany Truong":
                 loadStudentPane("/edu/csueastbay/cs401/ttruong/reveal.fxml");
                 break;
+            case "Tiffany Truong 2":
+                loadStudentPane("/edu/csueastbay/cs401/ttruong2/reveal.fxml");
+                break;
             default:
                  System.out.println("huh?");
 
