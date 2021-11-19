@@ -32,6 +32,7 @@
                     <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Lovejit Singh" />
                     <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Kabir Dhillon" />
                     <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Sam Celli" />
+                    <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Sam Celli Again" />
                     <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Ngon Ly" />
                     <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Eshaq Jamdar" />
                     <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Fnu Srishti" />
