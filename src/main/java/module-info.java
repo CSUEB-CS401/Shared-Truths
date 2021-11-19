@@ -11,6 +11,7 @@ module edu.csueastbay.cs401.shareprep {
     opens edu.csueastbay.cs401.jzepeda to javafx.fxml;
     opens edu.csueastbay.cs401.thansen to javafx.fxml;
     opens edu.csueastbay.cs401.mjelonek to javafx.fxml;
+    opens edu.csueastbay.cs401.mjelonek2 to javafx.fxml;
     opens edu.csueastbay.cs401.LSingh to javafx.fxml;
     opens edu.csueastbay.cs401.kdhillon to javafx.fxml;
     opens edu.csueastbay.cs401.scelli to javafx.fxml;
