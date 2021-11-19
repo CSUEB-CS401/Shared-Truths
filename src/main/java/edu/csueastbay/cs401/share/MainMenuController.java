@@ -9,6 +9,7 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.BorderPane;
 
 import java.io.IOException;
+import java.util.Objects;
 
 public class MainMenuController {
 
@@ -28,6 +29,24 @@ public class MainMenuController {
             case "Bob Smith":
                 loadStudentPane("/edu/csueastbay/cs401/bsmith/reveal.fxml");
                 break;
+            case "Vi Nguyen":
+                loadStudentPane("/edu/csueastbay/cs401/vnguyen/reveal.fxml");
+                break;
+            case "Pyae Maung":
+                loadStudentPane("/edu/csueastbay/cs401/pmaung/reveal.fxml");
+                break;
+            case "Katherine Hettick-Leir":
+                loadStudentPane("/edu/csueastbay/cs401/khettickleir/reveal.fxml");
+                break;
+            case "Paul Sander":
+                loadStudentPane("/edu/csueastbay/cs401/psander/reveal.fxml");
+                break;
+            case "Paul Sander 2":
+                loadStudentPane("/edu/csueastbay/cs401/psander2/reveal.fxml");
+                break;
+            case "Joshua Rodriguez":
+                loadStudentPane("/edu/csueastbay/cs401/jrodriguez/reveal.fxml");
+                 break;
             case "Hanish Patel":
                 loadStudentPane("/edu/csueastbay/cs401/hpatel/reveal.fxml");
                 break;
@@ -79,6 +98,12 @@ public class MainMenuController {
             case "Ethan Ketell":
                 loadStudentPane("/edu/csueastbay/cs401/eketell/reveal.fxml");
                 break;
+            case "Pyush Sinha":
+                loadStudentPane("/edu/csueastbay/cs401/psinha/reveal.fxml");
+                break;
+            case "iPod":
+                loadStudentPane("/edu/csueastbay/cs401/iPod/reveal.fxml");
+                break;
             default:
                  System.out.println("huh?");
 
@@ -89,7 +114,7 @@ public class MainMenuController {
 
         try {
             Parent root;
-            root = FXMLLoader.load(getClass().getResource(template));
+            root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource(template)));
             baseBorderPane.setCenter(root);
         } catch (IOException e) {
             e.printStackTrace();
