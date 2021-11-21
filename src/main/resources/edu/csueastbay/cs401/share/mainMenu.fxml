@@ -15,7 +15,7 @@
          <children>
             <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Paul Raupach" />
             <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Bob Smith" />
-            <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Ethan Ketell" />
+            <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Martin Le" />
          </children>
       </VBox>
    </left>

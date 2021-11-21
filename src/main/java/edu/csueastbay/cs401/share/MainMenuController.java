@@ -28,8 +28,8 @@ public class MainMenuController {
             case "Bob Smith":
                 loadStudentPane("/edu/csueastbay/cs401/bsmith/reveal.fxml");
                 break;
-            case "Ethan Ketell":
-                loadStudentPane("/edu/csueastbay/cs401/eketell/reveal.fxml");
+            case "Martin Le":
+                loadStudentPane("/edu/csueastbay/cs401/mle/reveal.fxml");
                 break;
             default:
                 System.out.println("huh?");
