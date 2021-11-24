@@ -26,6 +26,9 @@ public class MainMenuController {
             case "Paul Raupach":
                 loadStudentPane("/edu/csueastbay/cs401/praupach/reveal.fxml");
                 break;
+                case "Chan Saeteurn":
+                loadStudentPane("/edu/csueastbay/cs401/csaeteurn/reveal.fxml");
+                break;
             case "Bob Smith":
                 loadStudentPane("/edu/csueastbay/cs401/bsmith/reveal.fxml");
                 break;
@@ -34,6 +37,9 @@ public class MainMenuController {
                 break;
             case "Pyae Maung":
                 loadStudentPane("/edu/csueastbay/cs401/pmaung/reveal.fxml");
+                break;
+            case "Pyae Maung 2":
+                loadStudentPane("/edu/csueastbay/cs401/pmaung/reveal2.fxml");
                 break;
             case "Katherine Hettick-Leir":
                 loadStudentPane("/edu/csueastbay/cs401/khettickleir/reveal.fxml");
@@ -44,9 +50,6 @@ public class MainMenuController {
             case "Paul Sander 2":
                 loadStudentPane("/edu/csueastbay/cs401/psander2/reveal.fxml");
                 break;
-            case "Joshua Rodriguez":
-                loadStudentPane("/edu/csueastbay/cs401/jrodriguez/reveal.fxml");
-                 break;
             case "Hanish Patel":
                 loadStudentPane("/edu/csueastbay/cs401/hpatel/reveal.fxml");
                 break;
@@ -68,11 +71,17 @@ public class MainMenuController {
             case "Kabir Dhillon":
                 loadStudentPane("/edu/csueastbay/cs401/kdhillon/reveal.fxml");
                 break;
+            case "Kabir Dhillon 2":
+                loadStudentPane("/edu/csueastbay/cs401/kdhillon2/reveal2.fxml");
+                break;
             case "Sam Celli":
                 loadStudentPane("/edu/csueastbay/cs401/scelli/reveal.fxml");
                 break;
-            case "Ngon Ly" :
+            case "Ngon Ly":
                 loadStudentPane("/edu/csueastbay/cs401/nly/reveal.fxml");
+                break;
+            case "Ngon Lyy":
+                loadStudentPane("/edu/csueastbay/cs401/nlyy/reveal2.fxml");
                 break;
             case "Eshaq Jamdar":
                 loadStudentPane("/edu/csueastbay/cs401/ejamdar/reveal.fxml");
@@ -86,6 +95,9 @@ public class MainMenuController {
             case "Dillon Lin":
                 loadStudentPane("/edu/csueastbay/cs401/dlin/reveal.fxml");
                 break;
+            case "Dillon Lin2":
+                loadStudentPane("/edu/csueastbay/cs401/dlin2/reveal2.fxml");
+                break;
             case "Guiller Gamata":
                 loadStudentPane("/edu/csueastbay/cs401/ggamata/reveal.fxml");
                 break;
@@ -98,12 +110,27 @@ public class MainMenuController {
             case "Ethan Ketell":
                 loadStudentPane("/edu/csueastbay/cs401/eketell/reveal.fxml");
                 break;
+            case "Ethan Ketell 2":
+                loadStudentPane("/edu/csueastbay/cs401/eketell/reveal2.fxml");
+                break;
             case "Pyush Sinha":
                 loadStudentPane("/edu/csueastbay/cs401/psinha/reveal.fxml");
                 break;
             case "iPod":
                 loadStudentPane("/edu/csueastbay/cs401/iPod/reveal.fxml");
                 break;
+            case "Felix Choy":
+                loadStudentPane("/edu/csueastbay/cs401/fchoy/reveal.fxml");
+                break;
+            case "Felix Choy2":
+                loadStudentPane("/edu/csueastbay/cs401/fchoy2/reveal2.fxml");
+                break;
+            case "Joshua Rodriguez":
+              loadStudentPane("/edu/csueastbay/cs401/jrodriguez/reveal.fxml");
+              break;
+            case "Joshua Rodriguez 2":
+              loadStudentPane("/edu/csueastbay/cs401/jrodriguez2/reveal.fxml");
+              break;
             default:
                  System.out.println("huh?");
 

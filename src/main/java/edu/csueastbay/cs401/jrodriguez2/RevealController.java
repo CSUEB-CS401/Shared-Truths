@@ -1,5 +1,6 @@
-package edu.csueastbay.cs401.pmaung;
+package edu.csueastbay.cs401.jrodriguez2;
 
+import edu.csueastbay.cs401.jrodriguez.Truth;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -10,19 +11,19 @@ import java.util.ResourceBundle;
 
 public class RevealController implements Initializable {
 
-    private Truth pyaeTruth;
+    private Truth JoshuasTruth;
 
     @FXML
     private Label displayLabel;
 
     @FXML
     void reveal(ActionEvent event) {
-        displayLabel.setText(pyaeTruth.getAnswer());
+        displayLabel.setText(JoshuasTruth.getAnswer());
     }
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        pyaeTruth = new Truth("Your hobby?", "Coding!!!");
-        displayLabel.setText(pyaeTruth.getQuestion());
+        JoshuasTruth = new Truth("Favorite Sports Car?","Subaru WRX STI");
+        displayLabel.setText(JoshuasTruth.getQuestion());
     }
 }

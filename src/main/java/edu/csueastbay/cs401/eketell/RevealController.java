@@ -22,7 +22,7 @@ public class RevealController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        truth = new MyTruth("Is this a test?", "Yes");
+        truth = new MyTruth("First programming language?", "Java");
         displayLabel.setText(truth.getQuestion());
     }
 

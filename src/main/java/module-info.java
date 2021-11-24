@@ -11,6 +11,7 @@ module edu.csueastbay.cs.shareprep {
     opens edu.csueastbay.cs401.psander to javafx.fxml;
     opens edu.csueastbay.cs401.psander2 to javafx.fxml;
     opens edu.csueastbay.cs401.jrodriguez to javafx.fxml;
+    opens edu.csueastbay.cs401.jrodriguez2 to javafx.fxml;
     opens edu.csueastbay.cs401.hpatel to javafx.fxml;
     opens edu.csueastbay.cs401.rlepee to javafx.fxml;
     opens edu.csueastbay.cs401.jzepeda to javafx.fxml;
@@ -18,8 +19,10 @@ module edu.csueastbay.cs.shareprep {
     opens edu.csueastbay.cs401.mjelonek to javafx.fxml;
     opens edu.csueastbay.cs401.LSingh to javafx.fxml;
     opens edu.csueastbay.cs401.kdhillon to javafx.fxml;
+    opens edu.csueastbay.cs401.kdhillon2 to javafx.fxml;
     opens edu.csueastbay.cs401.scelli to javafx.fxml;
     opens edu.csueastbay.cs401.nly to javafx.fxml;
+    opens edu.csueastbay.cs401.nlyy to javafx.fxml;
     opens edu.csueastbay.cs401.ejamdar to javafx.fxml;
     opens edu.csueastbay.cs401.fsrishti to javafx.fxml;
     opens edu.csueastbay.cs401.dlin to javafx.fxml;
@@ -29,5 +32,10 @@ module edu.csueastbay.cs.shareprep {
     opens edu.csueastbay.cs401.eketell to javafx.fxml;
     opens edu.csueastbay.cs401.psinha to javafx.fxml;
     opens edu.csueastbay.cs401.iPod to javafx.fxml;
+    opens edu.csueastbay.cs401.csaeteurn to javafx.fxml;
+    opens edu.csueastbay.cs401.fchoy to javafx.fxml;
+    opens edu.csueastbay.cs401.fchoy2 to javafx.fxml;
     exports edu.csueastbay.cs401.share;
+    opens edu.csueastbay.cs401.pmaung2 to javafx.fxml;
+    opens edu.csueastbay.cs401.dlin2 to javafx.fxml;
 }

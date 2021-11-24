@@ -1,4 +1,4 @@
-package edu.csueastbay.cs401.pmaung;
+package edu.csueastbay.cs401.nlyy;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -10,19 +10,21 @@ import java.util.ResourceBundle;
 
 public class RevealController implements Initializable {
 
-    private Truth pyaeTruth;
+    private Truth ngonsTruth;
 
     @FXML
     private Label displayLabel;
 
     @FXML
     void reveal(ActionEvent event) {
-        displayLabel.setText(pyaeTruth.getAnswer());
+        displayLabel.setText(ngonsTruth.getAnswer());
     }
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        pyaeTruth = new Truth("Your hobby?", "Coding!!!");
-        displayLabel.setText(pyaeTruth.getQuestion());
+        ngonsTruth = new Truth("Favorite Quote", "It's About Drive. It's About Power. We Stay Hungry. We Devour.");
+        displayLabel.setText(ngonsTruth.getQuestion());
     }
+
 }
+
