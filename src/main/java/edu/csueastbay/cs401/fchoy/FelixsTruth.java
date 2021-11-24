@@ -1,10 +1,9 @@
-package edu.csueastbay.cs401.pmaung;
+package edu.csueastbay.cs401.fchoy;
 
 import edu.csueastbay.cs401.share.PersonalTruth;
 
-public class Truth extends PersonalTruth {
-
-    public Truth(String question, String answer) {
+public class FelixsTruth extends PersonalTruth {
+    public FelixsTruth(String question, String answer) {
         super(question, answer);
     }
 
@@ -17,4 +16,5 @@ public class Truth extends PersonalTruth {
     public String getAnswer() {
         return super.getAnswer();
     }
+
 }

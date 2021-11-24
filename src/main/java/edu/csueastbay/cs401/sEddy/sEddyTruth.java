@@ -1,10 +1,10 @@
-package edu.csueastbay.cs401.pmaung;
+package edu.csueastbay.cs401.sEddy;
 
 import edu.csueastbay.cs401.share.PersonalTruth;
 
-public class Truth extends PersonalTruth {
+public class sEddyTruth extends PersonalTruth {
 
-    public Truth(String question, String answer) {
+    public sEddyTruth(String question, String answer) {
         super(question, answer);
     }
 
