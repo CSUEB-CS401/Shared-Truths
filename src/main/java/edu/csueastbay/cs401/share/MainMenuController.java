@@ -113,6 +113,12 @@ public class MainMenuController {
             case "Felix Choy2":
                 loadStudentPane("/edu/csueastbay/cs401/fchoy2/reveal2.fxml");
                 break;
+            case "Joshua Rodriguez":
+              loadStudentPane("/edu/csueastbay/cs401/jrodriguez/reveal.fxml");
+              break;
+            case "Joshua Rodriguez 2"
+              loadStudentPane("/edu/csueastbay/cs401/jrodriguez2/reveal.fxml");
+              break;
             default:
                  System.out.println("huh?");
 

@@ -10,6 +10,7 @@ module edu.csueastbay.cs.shareprep {
     opens edu.csueastbay.cs401.psander to javafx.fxml;
     opens edu.csueastbay.cs401.psander2 to javafx.fxml;
     opens edu.csueastbay.cs401.jrodriguez to javafx.fxml;
+    opens edu.csueastbay.cs401.jrodriguez2 to javafx.fxml;
     opens edu.csueastbay.cs401.hpatel to javafx.fxml;
     opens edu.csueastbay.cs401.rlepee to javafx.fxml;
     opens edu.csueastbay.cs401.jzepeda to javafx.fxml;
