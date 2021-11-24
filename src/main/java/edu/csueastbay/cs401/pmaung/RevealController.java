@@ -3,7 +3,6 @@ package edu.csueastbay.cs401.pmaung;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 
 import java.net.URL;
@@ -23,7 +22,7 @@ public class RevealController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        pyaeTruth = new Truth("What's your hobby?", "Coding!!!");
+        pyaeTruth = new Truth("Your hobby?", "Coding!!!");
         displayLabel.setText(pyaeTruth.getQuestion());
     }
 }

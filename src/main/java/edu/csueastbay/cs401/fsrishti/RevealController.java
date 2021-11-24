@@ -1,6 +1,5 @@
 package edu.csueastbay.cs401.fsrishti;
 
-import edu.csueastbay.cs401.praupach.PaulsTruth;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -14,6 +13,7 @@ public class RevealController implements Initializable {
 
   private  Truth SrishtisTruth;
 
+
     @FXML
     private Label displayLabel;
 
@@ -26,10 +26,13 @@ public class RevealController implements Initializable {
 
     }
 
+
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         SrishtisTruth = new Truth("Home Town?", "Karnal, India");
         displayLabel.setText(SrishtisTruth.getQuestion());
 
     }
+
+
 }
