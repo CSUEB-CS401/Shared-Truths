@@ -35,6 +35,9 @@ public class MainMenuController {
             case "Pyae Maung":
                 loadStudentPane("/edu/csueastbay/cs401/pmaung/reveal.fxml");
                 break;
+            case "Pyae Maung 2":
+                loadStudentPane("/edu/csueastbay/cs401/pmaung/reveal2.fxml");
+                break;
             case "Katherine Hettick-Leir":
                 loadStudentPane("/edu/csueastbay/cs401/khettickleir/reveal.fxml");
                 break;

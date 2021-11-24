@@ -14,7 +14,7 @@ public class ShareApplication extends Application {
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("Sharing is caring!");
         stage.setScene(scene);
-         stage.show();
+        stage.show();
     }
 
     public static void main(String[] args) {

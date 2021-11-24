@@ -32,5 +32,6 @@ module edu.csueastbay.cs.shareprep {
     opens edu.csueastbay.cs401.fchoy to javafx.fxml;
     opens edu.csueastbay.cs401.fchoy2 to javafx.fxml;
     exports edu.csueastbay.cs401.share;
+    opens edu.csueastbay.cs401.pmaung2 to javafx.fxml;
     opens edu.csueastbay.cs401.dlin2 to javafx.fxml;
 }
