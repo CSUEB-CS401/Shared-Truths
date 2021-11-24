@@ -1,4 +1,4 @@
-package edu.csueastbay.cs401.fsrishti;
+package edu.csueastbay.cs401.iPod;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -10,10 +10,7 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 public class RevealController implements Initializable {
-
-  private  Truth SrishtisTruth;
-
-
+    private Truth iPodTruth;
     @FXML
     private Label displayLabel;
 
@@ -22,17 +19,13 @@ public class RevealController implements Initializable {
 
     @FXML
     void reveal(ActionEvent event) {
-        displayLabel.setText(SrishtisTruth.getAnswer());
-
+        displayLabel.setText(iPodTruth.getAnswer());
     }
 
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        SrishtisTruth = new Truth("Home Town?", "Karnal, India");
-        displayLabel.setText(SrishtisTruth.getQuestion());
-
+        iPodTruth = new Truth("When was I first released?", "2001");
+        displayLabel.setText(iPodTruth.getQuestion());
     }
-
-
 }

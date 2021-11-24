@@ -1,18 +1,19 @@
-package edu.csueastbay.cs401.fsrishti;
+package edu.csueastbay.cs401.rlepee;
 
+import edu.csueastbay.cs401.bsmith.BobsTruth;
+import edu.csueastbay.cs401.praupach.PaulsTruth;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.fxml.Initializable;
 
 import java.net.URL;
 import java.util.ResourceBundle;
 
 public class RevealController implements Initializable {
 
-  private  Truth SrishtisTruth;
-
+    private Truth truth;
 
     @FXML
     private Label displayLabel;
@@ -22,17 +23,13 @@ public class RevealController implements Initializable {
 
     @FXML
     void reveal(ActionEvent event) {
-        displayLabel.setText(SrishtisTruth.getAnswer());
-
+        displayLabel.setText(truth.getAnswer());
     }
-
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        SrishtisTruth = new Truth("Home Town?", "Karnal, India");
-        displayLabel.setText(SrishtisTruth.getQuestion());
-
+        truth = new Truth("Favourite sport club?", "Paris Saint-Germain");
+        displayLabel.setText(truth.getQuestion());
     }
-
 
 }
