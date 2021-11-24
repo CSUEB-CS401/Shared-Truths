@@ -93,7 +93,10 @@ public class MainMenuController {
             case "Sam Celli":
                 loadStudentPane("/edu/csueastbay/cs401/scelli/reveal.fxml");
                 break;
-            case "Ngon Ly":
+            case "Sam Celli Again":
+                loadStudentPane("/edu/csueastbay/cs401/scelli2/reveal.fxml");
+                break;
+            case "Ngon Ly" :
                 loadStudentPane("/edu/csueastbay/cs401/nly/reveal.fxml");
                 break;
             case "Ngon Lyy":
