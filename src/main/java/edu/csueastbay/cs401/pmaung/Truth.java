@@ -17,6 +17,4 @@ public class Truth extends PersonalTruth {
     public String getAnswer() {
         return super.getAnswer();
     }
-
-
 }

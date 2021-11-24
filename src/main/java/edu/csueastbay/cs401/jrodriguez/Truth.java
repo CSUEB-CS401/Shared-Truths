@@ -20,3 +20,4 @@ public class Truth extends PersonalTruth {
         return super.getAnswer();
     }
 }
+
