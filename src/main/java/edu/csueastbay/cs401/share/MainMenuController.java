@@ -136,6 +136,9 @@ public class MainMenuController {
             case "Pyush Sinha":
                 loadStudentPane("/edu/csueastbay/cs401/psinha/reveal.fxml");
                 break;
+            case "Pyush Sinha 2":
+                loadStudentPane("/edu/csueastbay/cs401/psinha2/reveal.fxml");
+                break;
             case "iPod":
                 loadStudentPane("/edu/csueastbay/cs401/iPod/reveal.fxml");
                 break;
