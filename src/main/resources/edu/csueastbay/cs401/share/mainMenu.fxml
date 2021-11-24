@@ -67,7 +67,8 @@
                         <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Malik Eddy" />
                         <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Sasha Eddy" />
                         <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Anthony Garcia" />
-                    </children>
+                        <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Martin Le" />  
+                  </children>
                 </VBox>
             </content>
         </ScrollPane>
