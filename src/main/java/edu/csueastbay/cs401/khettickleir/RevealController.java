@@ -1,4 +1,4 @@
-package edu.csueastbay.cs401.eketell;
+package edu.csueastbay.cs401.khettickleir;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -10,20 +10,20 @@ import java.util.ResourceBundle;
 
 public class RevealController implements Initializable {
 
-    private MyTruth truth;
+    private Truth katsTruth;
 
     @FXML
     private Label displayLabel;
 
     @FXML
     void reveal(ActionEvent event) {
-        displayLabel.setText(truth.getAnswer());
+        displayLabel.setText(katsTruth.getAnswer());
     }
+
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        truth = new MyTruth("First programming language?", "Java");
-        displayLabel.setText(truth.getQuestion());
+        katsTruth = new Truth("Favorite Drink", "Green Tea");
+        displayLabel.setText(katsTruth.getQuestion());
     }
-
 }
