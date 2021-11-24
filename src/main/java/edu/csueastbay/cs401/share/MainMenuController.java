@@ -57,6 +57,9 @@ public class MainMenuController {
             case "Katherine Hettick-Leir":
                 loadStudentPane("/edu/csueastbay/cs401/khettickleir/reveal.fxml");
                 break;
+            case "Katherine Hettick-Leir 2":
+                loadStudentPane("/edu/csueastbay/cs401/khettickleir2/reveal.fxml");
+                break;
             case "Paul Sander":
                 loadStudentPane("/edu/csueastbay/cs401/psander/reveal.fxml");
                 break;
