@@ -72,6 +72,9 @@ public class MainMenuController {
             case "Jonathan Zepeda":
                 loadStudentPane("/edu/csueastbay/cs401/jzepeda/reveal.fxml");
                 break;
+            case "Jonathan Zepeda 2":
+                loadStudentPane("/edu/csueastbay/cs401/jzepeda2/reveal.fxml");
+                break;
             case "Taylor Hansen":
                 loadStudentPane("/edu/csueastbay/cs401/thansen/reveal.fxml");
                 break;
