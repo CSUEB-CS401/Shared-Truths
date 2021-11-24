@@ -126,7 +126,8 @@ public class MainMenuController {
             case "Ethan Ketell":
                 loadStudentPane("/edu/csueastbay/cs401/eketell/reveal.fxml");
                 break;
-
+            case "Hanish Patel 2":
+                loadStudentPane("/edu/csueastbay/cs401/hpatel2/reveal.fxml");
             case "Lovejit Singh - Button 2":
                 loadStudentPane("/edu/csueastbay/cs401/singhLovejit/reveal.fxml");
                 break;
