@@ -34,6 +34,9 @@ public class MainMenuController {
                 System.out.println("b clicked");
                 loadStudentPane("/edu/csueastbay/cs401/bsmith/reveal.fxml");
                 break;
+            case "Anthony Garcia":
+                loadStudentPane("/edu/csueastbay/cs401/agarcia/reveal.fxml");
+                break;
             case "Malik Eddy":
                 System.out.println("m clicked");
                 loadStudentPane("/edu/csueastbay/cs401/mEddy/reveal.fxml");
