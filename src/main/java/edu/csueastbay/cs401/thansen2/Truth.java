@@ -1,4 +1,4 @@
-package edu.csueastbay.cs401.pmaung;
+package edu.csueastbay.cs401.thansen2;
 
 import edu.csueastbay.cs401.share.PersonalTruth;
 

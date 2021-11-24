@@ -1,5 +1,4 @@
-package edu.csueastbay.cs401.pmaung;
-
+package edu.csueastbay.cs401.kdhillon2;
 import edu.csueastbay.cs401.share.PersonalTruth;
 
 public class Truth extends PersonalTruth {
