@@ -24,13 +24,23 @@ public class MainMenuController {
         titleLabel.setText(button.getText() + " is sharing");
         switch (button.getText()) {
             case "Paul Raupach":
+                System.out.println("p clicked");
                 loadStudentPane("/edu/csueastbay/cs401/praupach/reveal.fxml");
                 break;
                 case "Chan Saeteurn":
                 loadStudentPane("/edu/csueastbay/cs401/csaeteurn/reveal.fxml");
                 break;
             case "Bob Smith":
+                System.out.println("b clicked");
                 loadStudentPane("/edu/csueastbay/cs401/bsmith/reveal.fxml");
+                break;
+            case "Malik Eddy":
+                System.out.println("m clicked");
+                loadStudentPane("/edu/csueastbay/cs401/mEddy/reveal.fxml");
+                break;
+            case "Sasha Eddy":
+                System.out.println("s clicked");
+                loadStudentPane("/edu/csueastbay/cs401/sEddy/reveal.fxml");
                 break;
             case "Vi Nguyen":
                 loadStudentPane("/edu/csueastbay/cs401/vnguyen/reveal.fxml");
