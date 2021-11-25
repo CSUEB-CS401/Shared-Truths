@@ -25,5 +25,6 @@ public class RevealController implements Initializable {
     public void initialize(URL url, ResourceBundle resourceBundle) {
         JoshuasTruth = new Truth("Favorite Sports Car?","Subaru WRX STI");
         displayLabel.setText(JoshuasTruth.getQuestion());
+
     }
 }
