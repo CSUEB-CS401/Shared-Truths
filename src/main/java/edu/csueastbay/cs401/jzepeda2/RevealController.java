@@ -1,11 +1,9 @@
-package edu.csueastbay.cs401.pmaung2;
+package edu.csueastbay.cs401.jzepeda2;
 
-master
-import edu.csueastbay.cs401.pmaung.Truth;
-master
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 
 import java.net.URL;
@@ -13,22 +11,22 @@ import java.util.ResourceBundle;
 
 public class RevealController implements Initializable {
 
-master
-    private Truth pyaeTruth;
-    private edu.csueastbay.cs401.pmaung.Truth pyaeTruth;
-master
+    private Truth jonathansTruth;
 
     @FXML
     private Label displayLabel;
 
     @FXML
+    private Button revealButton;
+
+    @FXML
     void reveal(ActionEvent event) {
-        displayLabel.setText(pyaeTruth.getAnswer());
+        displayLabel.setText(jonathansTruth.getAnswer());
     }
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        pyaeTruth = new Truth("Favorite activity?", "Playing game!!!");
-        displayLabel.setText(pyaeTruth.getQuestion());
+        jonathansTruth = new Truth("Pet Dog's Name", "Chilli");
+        displayLabel.setText(jonathansTruth.getQuestion());
     }
 }
