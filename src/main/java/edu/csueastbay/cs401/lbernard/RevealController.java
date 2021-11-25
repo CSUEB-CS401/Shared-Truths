@@ -13,23 +13,38 @@ import java.util.ResourceBundle;
 
 public class RevealController implements Initializable {
 
-    private LucasTruth truth;
+    private LucasTruth truth1;
+    private LucasTruth truth2;
 
     @FXML
     private Label displayLabel;
 
     @FXML
+    private Label displayLabel2;
+
+    @FXML
     private Button revealButton;
 
     @FXML
+    private Button revealButton2;
+
+    @FXML
     void reveal(ActionEvent event) {
-        displayLabel.setText(truth.getAnswer());
+        displayLabel.setText(truth1.getAnswer());
+    }
+
+    @FXML
+    void reveal2(ActionEvent event) {
+        displayLabel2.setText(truth2.getAnswer());
     }
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        truth = new LucasTruth("Sport practiced?", "Judo");
-        displayLabel.setText(truth.getQuestion());
+        truth1 = new LucasTruth("Sport practiced?", "Judo");
+        displayLabel.setText(truth1.getQuestion());
+
+        truth2 = new LucasTruth("Favorite food?", "Lasagna");
+        displayLabel2.setText(truth2.getQuestion());
     }
 
 }
