@@ -47,9 +47,6 @@ public class MainMenuController {
             case "Paul Sander 2":
                 loadStudentPane("/edu/csueastbay/cs401/psander2/reveal.fxml");
                 break;
-            case "Joshua Rodriguez":
-                loadStudentPane("/edu/csueastbay/cs401/jrodriguez/reveal.fxml");
-                 break;
             case "Hanish Patel":
                 loadStudentPane("/edu/csueastbay/cs401/hpatel/reveal.fxml");
                 break;
@@ -119,7 +116,7 @@ public class MainMenuController {
             case "Joshua Rodriguez":
               loadStudentPane("/edu/csueastbay/cs401/jrodriguez/reveal.fxml");
               break;
-            case "Joshua Rodriguez 2"
+            case "Joshua Rodriguez 2":
               loadStudentPane("/edu/csueastbay/cs401/jrodriguez2/reveal.fxml");
               break;
             default:
