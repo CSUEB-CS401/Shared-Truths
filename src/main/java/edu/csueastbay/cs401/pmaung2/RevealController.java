@@ -1,6 +1,5 @@
 package edu.csueastbay.cs401.pmaung2;
 
-import edu.csueastbay.cs401.pmaung.Truth;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -11,7 +10,7 @@ import java.util.ResourceBundle;
 
 public class RevealController implements Initializable {
 
-    private edu.csueastbay.cs401.pmaung.Truth pyaeTruth;
+    private Truth pyaeTruth;
 
     @FXML
     private Label displayLabel;
