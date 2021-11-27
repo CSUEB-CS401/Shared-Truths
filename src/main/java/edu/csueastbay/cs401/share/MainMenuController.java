@@ -34,6 +34,9 @@ public class MainMenuController {
                 System.out.println("b clicked");
                 loadStudentPane("/edu/csueastbay/cs401/bsmith/reveal.fxml");
                 break;
+            case "Martin Le":
+                loadStudentPane("/edu/csueastbay/cs401/mle/reveal.fxml");
+                break;
             case "Anthony Garcia":
                 loadStudentPane("/edu/csueastbay/cs401/agarcia/reveal.fxml");
                 break;
@@ -56,6 +59,9 @@ public class MainMenuController {
                 break;
             case "Katherine Hettick-Leir":
                 loadStudentPane("/edu/csueastbay/cs401/khettickleir/reveal.fxml");
+                break;
+            case "Katherine Hettick-Leir 2":
+                loadStudentPane("/edu/csueastbay/cs401/khettickleir2/reveal.fxml");
                 break;
             case "Paul Sander":
                 loadStudentPane("/edu/csueastbay/cs401/psander/reveal.fxml");
@@ -83,6 +89,9 @@ public class MainMenuController {
                 break;
             case "Matthew Jelonek":
                 loadStudentPane("/edu/csueastbay/cs401/mjelonek/reveal.fxml");
+                break;
+            case "Matthew Jelonek-2":
+                loadStudentPane("/edu/csueastbay/cs401/mjelonek2/reveal.fxml");
                 break;
             case "Lovejit Singh":
                 loadStudentPane("/edu/csueastbay/cs401/LSingh/reveal.fxml");
