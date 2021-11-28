@@ -49,7 +49,12 @@ public class MainMenuController {
                 loadStudentPane("/edu/csueastbay/cs401/sEddy/reveal.fxml");
                 break;
             case "Vi Nguyen":
+                System.out.println("v clicked");
                 loadStudentPane("/edu/csueastbay/cs401/vnguyen/reveal.fxml");
+                break;
+            case "Vi Nguyen 2":
+                System.out.println("v2 clicked");
+                loadStudentPane("/edu/csueastbay/cs401/vnguyen2/reveal2.fxml");
                 break;
             case "Pyae Maung":
                 loadStudentPane("/edu/csueastbay/cs401/pmaung/reveal.fxml");
