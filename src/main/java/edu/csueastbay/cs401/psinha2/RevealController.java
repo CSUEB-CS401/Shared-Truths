@@ -1,4 +1,4 @@
-package edu.csueastbay.cs401.psinha;
+package edu.csueastbay.cs401.psinha2;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -26,7 +26,7 @@ public class RevealController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        truth = new PyushTruth("dogs or cats?", "i like both a lot");
+        truth = new PyushTruth("Are you allergic to cats?", "lil bit :[ ....");
         displayLabel.setText(truth.getQuestion());
     }
 }

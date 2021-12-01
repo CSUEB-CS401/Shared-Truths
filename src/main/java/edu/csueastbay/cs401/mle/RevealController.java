@@ -1,4 +1,4 @@
-package edu.csueastbay.cs401.fsrishti;
+package edu.csueastbay.cs401.mle;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -11,8 +11,7 @@ import java.util.ResourceBundle;
 
 public class RevealController implements Initializable {
 
-  private  Truth SrishtisTruth;
-
+    private Truth martinsTruth;
 
     @FXML
     private Label displayLabel;
@@ -22,17 +21,12 @@ public class RevealController implements Initializable {
 
     @FXML
     void reveal(ActionEvent event) {
-        displayLabel.setText(SrishtisTruth.getAnswer());
-
+        displayLabel.setText(martinsTruth.getAnswer());
     }
-
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        SrishtisTruth = new Truth("Home Town?", "Karnal, India");
-        displayLabel.setText(SrishtisTruth.getQuestion());
-
+        martinsTruth = new Truth("Home Town", "San Jose, CA");
+        displayLabel.setText(martinsTruth.getQuestion());
     }
-
-
 }

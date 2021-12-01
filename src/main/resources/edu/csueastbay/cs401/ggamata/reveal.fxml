@@ -4,10 +4,11 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.csueastbay.cs401.ggamata.RevealController">
    <children>
-      <Label fx:id="displayLabel" alignment="CENTER" layoutX="7.0" layoutY="45.0" prefHeight="68.0" prefWidth="600.0" style="-fx-font-size: 32;" text="Label" />
-      <Button fx:id="RevealButton" layoutX="281.0" layoutY="188.0" mnemonicParsing="false" onAction="#reveal" text="Reveal" />
+      <Label fx:id="displayLabel" alignment="CENTER" layoutX="58.0" layoutY="46.0" prefHeight="68.0" prefWidth="229.0" style="-fx-font-size: 32;" text="Label" />
+      <Button fx:id="RevealButton" layoutX="142.0" layoutY="189.0" mnemonicParsing="false" onAction="#reveal" text="Reveal 1" />
+      <Button fx:id="RevealButton2" layoutX="407.0" layoutY="188.0" mnemonicParsing="false" onAction="#reveal_second_truth" text="Reveal 2" />
+      <Label fx:id="displayLabel2" alignment="CENTER" layoutX="323.0" layoutY="46.0" prefHeight="68.0" prefWidth="229.0" style="-fx-font-size: 32;" text="Label 2" />
    </children>
 </AnchorPane>
