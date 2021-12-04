@@ -64,6 +64,7 @@
                         <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Tiffany Truong"/>
                         <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Tiffany Truong 2"/>
                         <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Rahul Ravi"/>
+                        <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Rahul Ravi 2"/>
                         <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Joshua Rodriguez 2"/>
                         <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Felix Choy"/>
                         <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Felix Choy2"/>

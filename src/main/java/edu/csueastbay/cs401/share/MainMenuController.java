@@ -43,19 +43,15 @@ public class MainMenuController {
                 loadStudentPane("/edu/csueastbay/cs401/agarcia/reveal.fxml");
                 break;
             case "Malik Eddy":
-                System.out.println("m clicked");
                 loadStudentPane("/edu/csueastbay/cs401/mEddy/reveal.fxml");
                 break;
             case "Sasha Eddy":
-                System.out.println("s clicked");
                 loadStudentPane("/edu/csueastbay/cs401/sEddy/reveal.fxml");
                 break;
             case "Vi Nguyen":
-                System.out.println("v clicked");
                 loadStudentPane("/edu/csueastbay/cs401/vnguyen/reveal.fxml");
                 break;
             case "Vi Nguyen 2":
-                System.out.println("v2 clicked");
                 loadStudentPane("/edu/csueastbay/cs401/vnguyen2/reveal2.fxml");
                 break;
             case "Pyae Maung":
@@ -176,6 +172,9 @@ public class MainMenuController {
                 break;
             case "Rahul Ravi":
                 loadStudentPane("/edu/csueastbay/cs401/rravi/reveal.fxml");
+                break;
+            case "Rahul Ravi 2":
+                loadStudentPane("/edu/csueastbay/cs401/rravi2/reveal.fxml");
                 break;
             case "Felix Choy":
                 loadStudentPane("/edu/csueastbay/cs401/fchoy/reveal.fxml");

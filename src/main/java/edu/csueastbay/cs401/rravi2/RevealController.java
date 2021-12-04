@@ -1,4 +1,4 @@
-package edu.csueastbay.cs401.rravi;
+package edu.csueastbay.cs401.rravi2;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -23,7 +23,7 @@ public class RevealController implements Initializable {
     }
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        rahulsTruth = new Truth("Cereal or milk First?" , "Ew nah I don't eat cereal");
+        rahulsTruth = new Truth("Favorite food" , "Wings");
         displayLabel.setText(rahulsTruth.getQuestion());
     }
 }
