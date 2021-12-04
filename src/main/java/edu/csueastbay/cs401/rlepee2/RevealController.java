@@ -1,4 +1,4 @@
-package edu.csueastbay.cs401.lbernard;
+package edu.csueastbay.cs401.rlepee2;
 
 import edu.csueastbay.cs401.bsmith.BobsTruth;
 import edu.csueastbay.cs401.praupach.PaulsTruth;
@@ -13,39 +13,23 @@ import java.util.ResourceBundle;
 
 public class RevealController implements Initializable {
 
-    private LucasTruth truth1;
-    private LucasTruth truth2;
+    private Truth truth;
 
     @FXML
     private Label displayLabel;
 
     @FXML
-    private Label displayLabel2;
-
-    @FXML
     private Button revealButton;
 
     @FXML
-    private Button revealButton2;
-
-    @FXML
     void reveal(ActionEvent event) {
-        displayLabel.setText(truth1.getAnswer());
-    }
-
-    @FXML
-    void reveal2(ActionEvent event) {
-        displayLabel2.setText(truth2.getAnswer());
+        displayLabel.setText(truth.getAnswer());
     }
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        truth1 = new LucasTruth("Sport practiced?", "Judo");
-        displayLabel.setText(truth1.getQuestion());
-
-        truth2 = new LucasTruth("Favorite food?", "Lasagna");
-        displayLabel2.setText(truth2.getQuestion());
+        truth = new Truth("Where am I from?", "Paris, France");
+        displayLabel.setText(truth.getQuestion());
     }
 
 }
-

@@ -1,8 +1,8 @@
-package edu.csueastbay.cs401.jrodriguez2;
+package edu.csueastbay.cs401.rlepee2;
 
 import edu.csueastbay.cs401.share.PersonalTruth;
 
-public class Truth extends PersonalTruth {
+public class Truth extends PersonalTruth{
 
     public Truth(String question, String answer) {
         super(question, answer);
@@ -17,5 +17,4 @@ public class Truth extends PersonalTruth {
     public String getAnswer() {
         return super.getAnswer();
     }
-
 }
