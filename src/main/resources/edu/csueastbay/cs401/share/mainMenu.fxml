@@ -22,6 +22,7 @@
                         <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Chan Saeteurn 2" />
                         <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Bob Smith" />
                         <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Vi Nguyen" />
+                        <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Vi Nguyen 2" />
                         <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Pyae Maung" />
                         <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Katherine Hettick-Leir" />
                         <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Katherine Hettick-Leir 2" />
