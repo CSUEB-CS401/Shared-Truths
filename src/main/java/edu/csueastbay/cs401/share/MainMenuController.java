@@ -24,7 +24,6 @@ public class MainMenuController {
         titleLabel.setText(button.getText() + " is sharing");
         switch (button.getText()) {
             case "Paul Raupach":
-                System.out.println("p clicked");
                 loadStudentPane("/edu/csueastbay/cs401/praupach/reveal.fxml");
                 break;
                 case "Chan Saeteurn":
