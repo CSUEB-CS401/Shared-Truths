@@ -34,7 +34,7 @@
                         <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Jonathan Zepeda" />
                         <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Jonathan Zepeda 2" />
                         <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Taylor Hansen" />
-                        <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Taylor Hansen 2" />    
+                        <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Taylor Hansen 2" />
                         <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Matthew Jelonek" />
                         <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Matthew Jelonek-2" />
                         <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Lovejit Singh" />
@@ -59,6 +59,7 @@
                         <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Pyush Sinha 2" />
                         <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="iPod" />
                         <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Joshua Rodriguez"/>
+                        <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Joshua Rodriguez 2"/>
                         <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Tiffany Truong"/>
                         <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Tiffany Truong 2"/>
                         <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Rahul Ravi"/>
@@ -68,7 +69,7 @@
                         <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Malik Eddy" />
                         <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Sasha Eddy" />
                         <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Anthony Garcia" />
-                        <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Martin Le" />  
+                        <Button layoutX="10.0" layoutY="35.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonClick" text="Martin Le" />
                   </children>
                 </VBox>
             </content>
