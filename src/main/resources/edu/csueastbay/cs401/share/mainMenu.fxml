@@ -7,7 +7,6 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.VBox?>
 
-
 <BorderPane fx:id="baseBorderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.csueastbay.cs401.share.MainMenuController">
     <top>
         <Label fx:id="titleLabel" style="-fx-font-size: 30;" text="Main Menu" BorderPane.alignment="CENTER" />
