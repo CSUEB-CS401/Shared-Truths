@@ -1,6 +1,6 @@
 package edu.csueastbay.cs401.ggamata2;
 
-import edu.csueastbay.cs401.ggamata.Truth;
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -12,8 +12,8 @@ import java.util.ResourceBundle;
 
 public class RevealController implements Initializable {
 
-    private Truth GuillerTruth;
-    private Truth GuillerTruth2;
+    private Truth GuillerSecondTruth1;
+    private Truth GuillerSecondTruth2;
 
     @FXML
     private Button RevealButton;
@@ -30,20 +30,21 @@ public class RevealController implements Initializable {
     @FXML
     void reveal(ActionEvent event)
     {
-      displayLabel.setText(GuillerTruth.getAnswer());
+      displayLabel.setText(GuillerSecondTruth1.getAnswer());
     }
 
     @FXML
-    void reveal_second_truth(ActionEvent event) { displayLabel2.setText(GuillerTruth2.getAnswer());}
+    void reveal_second_truth(ActionEvent event) { displayLabel2.setText(GuillerSecondTruth2.getAnswer());}
 
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle)
     {
-        GuillerTruth = new Truth("Fav Anime", "DBZ");
-        GuillerTruth2 = new Truth("Height","5'8");
-        displayLabel.setText(GuillerTruth.getQuestion());
-        displayLabel2.setText(GuillerTruth2.getQuestion());
+
+        GuillerSecondTruth1 = new Truth("Fav Anime", "DBZ");
+        GuillerSecondTruth2 = new Truth("Height","5'8");
+        displayLabel.setText( GuillerSecondTruth1.getQuestion());
+        displayLabel2.setText(GuillerSecondTruth2.getQuestion());
     }
 }
 
