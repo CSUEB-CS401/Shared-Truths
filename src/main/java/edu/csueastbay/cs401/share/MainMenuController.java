@@ -138,6 +138,9 @@ public class MainMenuController {
             case "Guiller Gamata":
                 loadStudentPane("/edu/csueastbay/cs401/ggamata/reveal.fxml");
                 break;
+            case "Guiller Gamata 2":
+                loadStudentPane("/edu/csueastbay/cs401/ggamata2/reveal2.fxml");
+                break;
             case "Lucas Bernard":
                 loadStudentPane("/edu/csueastbay/cs401/lbernard/reveal.fxml");
                 break;

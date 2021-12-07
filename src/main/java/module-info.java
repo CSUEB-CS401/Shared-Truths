@@ -37,6 +37,7 @@ module edu.csueastbay.cs.shareprep {
     opens edu.csueastbay.cs401.fsrishti to javafx.fxml;
     opens edu.csueastbay.cs401.dlin to javafx.fxml;
     opens edu.csueastbay.cs401.ggamata to javafx.fxml;
+    opens edu.csueastbay.cs401.ggamata2 to javafx.fxml;
     opens edu.csueastbay.cs401.lbernard to javafx.fxml;
     opens edu.csueastbay.cs401.praye to javafx.fxml;
     opens edu.csueastbay.cs401.eketell to javafx.fxml;
