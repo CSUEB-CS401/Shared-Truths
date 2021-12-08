@@ -28,6 +28,9 @@ public class MainMenuController {
             case "Bob Smith":
                 loadStudentPane("/edu/csueastbay/cs401/bsmith/reveal.fxml");
                 break;
+            case "Suraj Sherchan":
+                loadStudentPane("/edu/csueastbay/cs401/ssherchan/reveal.fxml");
+                break;
             default:
                 System.out.println("huh?");
 
